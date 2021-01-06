@@ -1,9 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
 /* 
 =================
     variables
 =================
 */
 :root {
+  --clr-grey-1: #a3a3a3;
+  --ff-primary: "Montserrat", sans-serif;
 }
 
 /* 
@@ -19,4 +23,19 @@
   box-sizing: border-box;
 }
 body {
+  font-family: var(--ff-primary);
+  margin: 2rem;
+}
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 0.3fr));
+  grid-gap: 2rem;
+  justify-content: center;
+}
+.card {
+  overflow: hidden;
+  border: 1px solid black;
+  box-shadow: 4px 4px var(--clr-grey-1);
+  display: flex;
+  flex-direction: column;
 }

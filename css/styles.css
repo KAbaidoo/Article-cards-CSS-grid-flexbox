@@ -68,8 +68,18 @@ section {
 .card header {
   padding: 1rem;
 }
+.card header p {
+  padding: 0.5rem 0 0.5rem 0;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+.card header span {
+  color: rgba(255, 115, 0, 0.877);
+}
 .card .description {
-  padding: 0 1rem;
+  overflow: hidden;
+  height: 110px;
+  padding: 0 1rem 1rem 1rem;
 }
 .card .link {
   padding: 1rem;
